@@ -9,6 +9,7 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: SiteRepository::class)]
+#[ORM\Table(name: 'rv_clients')]
 #[ApiResource]
 class Site
 {
